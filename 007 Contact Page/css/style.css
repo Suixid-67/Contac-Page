@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.title{
+    font-size: 4rem;
+    color: #FFFFFF;
+    text-align: center;
+    width: 40%;
+    margin: 8px;
+}
+.head{
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+    width: 40%;
+    margin: 8px;
+}
+
+#form{
+    margin: 64px;
+    padding: 24px;
+    background: #CDD5E050;
+    border-radius: 16px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+label{
+    font-size:  0.875rem;
+    color: #FFFFFF;
+    margin: 4px;
+}
+.basis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 40%;
+    margin: 8px;
+}
+input{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #111729;
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+}
+::placeholder{
+    color:  #CDD5E0;
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+select{
+    appearance: none;
+    background: no-repeat right;
+    background-origin: content-box, padding-box;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #111729;
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+}
+.message{
+    width: 100%;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+}
+#message{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    color: #111729;
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+}
+.contact{
+    font-size: 1.25rem;
+    background-color: #FFFFFF;
+    color: #4036A9;
+    padding: 16px;
+    margin: 8px;
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+    width: 100%;
+}

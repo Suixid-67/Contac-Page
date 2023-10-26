@@ -1,0 +1,19 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+</style>
+
+font-family: 'Be Vietnam Pro', sans-serif;
+
+Size
+  Title: 4rem
+  Heading: 2rem
+  Body: 1rem
+  Label: 0.875rem
+  Button: 1.25rem
+
+Color
+  Title, Heading: #FFFFFF;
+  Label: #F8FAFC;
+  Body1: #CDD5E0;
+  Button: #4036A9;
+  Body2: #111729;
